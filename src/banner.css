@@ -1,0 +1,8 @@
+#banner {
+    background-color: rgba(0, 0, 0, 0);
+    padding: auto;
+    flex-direction: row;
+    text-align: center;
+    width: 10rem;
+    margin: 0 auto;
+}

@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+    text-align: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 520px;
+}
+
+#title {
+    display: block;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: auto;
+    font-size: 2rem;
+}
+
+#bigRole {
+    color: white;
+    font-size: 15rem;
+    opacity: 0.5;
+    position: fixed;
+    font-weight: bolder;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: -60px;
+    font-family: 'Inconsolata', monospace;
+}

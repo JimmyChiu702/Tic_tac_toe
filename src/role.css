@@ -1,0 +1,33 @@
+#space {
+    width: 2rem;
+}
+
+#x, #o {
+    line-height: 2.5rem;
+}
+
+.r {
+    font-size: 2.5rem;
+}
+
+#x {
+    display: inline;
+    float: left;
+}
+
+#o {
+    display: inline;
+    float: right;
+}
+
+#x .r {
+    color: rgb(240, 11, 100);
+}
+
+#o .r{
+    color: rgb(35, 227, 240);
+}
+
+#xpnt, #opnt{
+    font-size: 1.5rem;
+}
